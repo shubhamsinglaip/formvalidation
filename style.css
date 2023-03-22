@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.myform
+{
+
+width:900px;
+height:1400px;
+background-color: lavender;
+margin: 0px auto;
+padding: 30px;
+
+}
+h2{
+text-align: right;
+color: brown;
+font-size: 15px;
+resize: vertical;
+}
+.input{
+
+width: 400px;
+height: 30px;
+margin: 10px;
+background-color: white;
+font-size: 20px;
+border: 1px solid #ccc;
+  border-radius: 4px;
+ resize: vertical;
+  
+  
+}
+.button
+{
+width: 70px;
+height: 30px;
+background-color: green;
+margin: 10px;
+padding: 10px;
+border: 0px;
+font-size: 10px;
+color: white;
+}
+
+textarea{
+margin-top: 6px;
+border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+margin: 10px;
+}
+.address{
+margin-top: 6px;
+resize: vertical;
+}
+.col-10{
+    float: left;
+    width:20%;
+    margin-top: 7px;
+    resize: vertical;
+}
+.col-90{
+    float: left;
+    width: 80%;
+    margin-top: 7px;
+    resize: vertical;
+}
+.formerror{
+color: red
+}
+label{
+width:100px;
+display: inline-block;
+}
