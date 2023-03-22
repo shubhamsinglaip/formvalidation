@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="myform">
+<div>
+<h2><u> Student Registaration Form</u></h2><br>
+</div>
+<form id="formId"method="post" autocomplete="on" name="myForm" onsubmit="return validateForm()">
+  <div>
+  <div class="col-10">
+    <label for="fname" id="fname1">First Name:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="fname" name="fname" class="input" ><b><span class="formerror" ></span></b><br>
+  </div>
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+    <label id="lname1"for="lname" >Last Name:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="lname" name="lname" class="input" ><b><span class="formerror" ><b></b></span></b>
+  </div>
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+    <label id="email1"for="myemail" >Email:</label>
+    </div>
+    <div class="col-90">
+    <input type="email" id="email" name="myemail" class="input" ><b><span class="formerror" ><b></b></span></b>
+    </div>
+  </div>
+  
+  <br>
+  <div>
+  <div class="col-10">
+    <label id= "mobile1"for="mobile" >Mobile:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="mobile" name="mobile" class="input" ><b><span class="formerror" ></span></b><br>
+  </div>
+  
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+  <label id="gender" for="gender" >Gender:</label>
+  </div>
+  <div class="col-90">
+  <input type="radio" id="male" name="gender" value="Male" class="input1" >
+  <label for="male" class= "label">Male</label>
+  <input type="radio" id="female" name="gender" class="input1" >
+  <label for="female" class= "label">Female</label>
+  </div>
+  
+</div>
+<br>
+<div>
+<div class="col-10">
+    <label id= "dob1" for="dob" >Date of Birth:</label>
+    </div>
+    <div class="col-90">
+  <input type="date" id="dob" name="dob" class="input" ><b><span class="formerror" ><b></b></span></b><br>
+  </div>
+  </div>
+  <br>
+
+<div class="row">
+                <div class="col-10">
+                    <label id="address1" for="address">Address:</label>
+                </div>
+                <div class="col-90">
+                    <textarea name="address" id="address" cols="48" rows="4" ></textarea><b><span class="formerror" ><b></b></span></b>
+                </div>
+            </div>
+  <div>
+  <div class="col-10">
+    <label id= "city1" for="city" >City:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="city" name="city" class="input" ><b><span class="formerror" ><b></b></span></b><br>
+  </div>
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+    <label id= "pin1" for="pin" >Area PIN:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="pin" name="pin" class="input" ><b><span class="formerror"><b></b></span></b><br>
+  </div>
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+    <label id= "state1" for="state" >State:</label>
+    </div>
+    <div class="col-90">
+  <input type="text" id="state" name="state" class="input" ><b><span class="formerror"><b></b></span></b><br>
+  </div>
+  
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+  <label id="qualification1" for="qualification" >Qualification:</label>
+  </div>
+  <div class="col-90">
+  <select id="qualification" name="qualification" >
+    <option value="b.tech">B.Tech</option>
+    <option value="m.tech">M.Tech</option>
+  </select>
+  <span class="formerror"><b></b></span>
+  </div>
+  </div>
+  <br>
+  <div>
+  <div class="col-10">
+  <label for="specialization" >Specialization:</label>
+  </div>
+  <div class="col-90">
+  
+  <input type="checkbox" id="cs" name="sp" class="input1" value="Computer Science" >
+  <label for="cs" class= "label" name="specialization">Computer Science</label><b><span class="formerror"><b></b></span></b><br>
+<br>
+
+<input type="checkbox" id="it" name="sp" class="input1" value="Information Technology" >
+<label for="it" class= "label" name="specialization">Information Technology</label><br>
+<br>
+<input type="checkbox" id="ca" name="sp" class="input1" value="Computer Architecture" >
+<label for="ca" class= "label">Computer Architecture </label><br>
+<br>
+<input type="checkbox" id="tc" name="sp" class="input1" value="Tele Communication">
+<label for="tc" class= "label">Tele Communication</label><br>
+<br>
+</div>
+</div>
+<div>
+<div class="col-10">
+    <label for="passwd" >Password:</label>
+    </div>
+    <div class="col-90">
+  <input type="password" id="passwd" name="passwd" class="input" ><b><span class="formerror" ><b></b></span></b><br>
+  </div>
+  
+  </div>
+  <br>
+  <div>
+    <input type="submit" value="Registered" class="input button" onclick=demo_function()></textarea>
+  </div>
+  <br>
+  <script src=script.js></script>
+</form>
+</div>
+<scri>
+</body>
+</html>
